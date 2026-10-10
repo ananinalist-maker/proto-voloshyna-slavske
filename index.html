@@ -333,7 +333,7 @@ button.qb__f{cursor:pointer;transition:background-color .15s}
   .qbbar::before{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:url(decor/stars.svg) 0 0/320px 320px;opacity:.9}
   .qbbar__t{display:block;margin:0 0 30px;font:600 23px/1.2 var(--f-display);letter-spacing:-.01em;color:var(--on-dark)}
   .qbbar__t span{display:block;max-width:34em;margin-top:8px;font:500 15.5px/1.45 var(--f-sans);letter-spacing:0;color:var(--mute-dark)}
-  .qbbar + .why{padding-top:64px;background:radial-gradient(ellipse 50% 40% at 92% 10%,rgba(255,198,92,.09),rgba(255,198,92,0) 60%),var(--night)}
+  .qbbar + .why{padding-top:64px;background:var(--night)}
   .qb{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;padding:16px 10px 8px;border-radius:16px}
   .qb__tab{display:none}
   .qb__f{min-height:58px;padding:7px 12px;border:1.5px solid var(--seam);background:#fff}
@@ -1045,7 +1045,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
       <div class="head" data-rv>
         <p class="eyebrow">господарі</p>
         <h2 id="why-title">Пані Ольга і пан Володимир <em>підкажуть, куди піти</em></h2>
-        <p class="lead">У відгуках гості найчастіше пишуть саме про господарів. Усюди чисто, в номерах тепло, а пані Ольга чесно розкаже, що варто побачити в Славську і довкола.</p>
+        <p class="lead">У відгуках гості найчастіше пишуть саме про господарів, навіть частіше, ніж про чан. Пані Ольга підкаже, що варто побачити в Славську і довкола.</p>
         <figure class="hst">
           <div class="swing swing--sm"><img src="img/hosts.jpg" width="800" height="1000" alt="Дерев'яний будинок з балконом, біля входу на гравії стоять дерев'яні крісла, позаду гори" loading="lazy" decoding="async"></div>
           <figcaption><img src="decor/cornflower-sprig-light.svg" width="60" height="115" alt="" aria-hidden="true"><span>Біля входу дерев'яні крісла, а позаду гори. Фото з Google-картки.</span></figcaption>
@@ -1054,8 +1054,8 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
       <div>
       <ol class="why__list" data-rv>
         <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-bolt"/></svg></span><h3>Світло і тепло, навіть коли вимикають</h3><p>Коли вимикають світло, працює генератор, тож у будинку тепло і є вода. Гості, які відпочивали тут узимку, згадують про це окремо.</p></li>
-        <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-broom"/></svg></span><h3>Чисто з ранку до вечора</h3><p>Пані Ольга сама тримає лад у номерах, на кухні й біля чанів. Про чистоту гості пишуть майже в кожному відгуку.</p></li>
-        <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-cup"/></svg></span><h3>Чай із трав, зібраних самими</h3><p>Після чану гостей пригощають чаєм з карпатських трав, які господарі збирають власноруч. У відгуках цей чай хвалять не раз.</p></li>
+        <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-broom"/></svg></span><h3>Чисто з ранку до вечора</h3><p>Пані Ольга сама тримає лад у номерах, на кухні, на території й біля чанів.</p></li>
+        <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-cup"/></svg></span><h3>Чай із трав, зібраних самими</h3><p>Після чану гостей пригощають чаєм з карпатських трав, які господарі збирають власноруч.</p></li>
         <li><span class="why__n" aria-hidden="true"><svg class="i"><use href="#i-atv"/></svg></span><h3>Поїздки в гори й квадроцикли</h3><p>Пан Володимир організовує екскурсії в гори, машиною чи пішки, і катає на квадроциклах. Про це домовляються окремо.</p></li>
       </ol>
       <blockquote class="why__q" data-rv>
@@ -1153,7 +1153,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
             <li><svg class="i" aria-hidden="true"><use href="#i-users"/></svg>до 12 гостей</li>
             <li><svg class="i" aria-hidden="true"><use href="#i-kitchen"/></svg>кухня</li>
           </ul>
-          <p>Якщо їдете компанією чи кількома сім'ями, будинок можна забронювати цілком. Це три номери для двох, два тримісні й спільна кухня, а чан і басейн поруч, у дворі.</p>
+          <p>Якщо їдете компанією чи кількома сім'ями, будинок можна забронювати цілком. Це три номери для двох, два тримісні й спільна кухня. Чан і басейн поруч, у дворі.</p>
           <ul class="feat">
             <li><svg class="i" aria-hidden="true"><use href="#i-users"/></svg>Додаткові ліжка за запитом</li>
             <li><svg class="i" aria-hidden="true"><use href="#i-car"/></svg>Паркування на території, безкоштовно</li>
@@ -1196,7 +1196,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
         <p class="eyebrow">чан, басейн і двір</p>
         <h2 id="yard-title">Чан, басейн <em>і гойдалка над Славськом</em></h2>
       </div>
-      <p class="lead">Територія велика і вся в квітах. Тут є басейн з лежаками, альтанки, мангал, батут і дитячий майданчик, а з двору видно більшу частину Славська. Увечері по всьому двору горять гірлянди, а на високій гойдалці виходять гарні фото.</p>
+      <p class="lead">Територія велика і вся в квітах, з неї видно більшу частину Славська. Тут є басейн з лежаками, альтанки, мангал, батут і дитячий майданчик. Увечері по всьому двору горять гірлянди, і на високій гойдалці виходять гарні фото.</p>
     </div>
     <ol class="tiles" aria-label="Чан, басейн і двір на фото з Google-картки" data-rv>
       <li><figure class="tile swing"><img src="img/tile-chan.jpg" width="825" height="1100" alt="Восьмикутний чан під дахом з зеленою підсвіткою, за відкритою шторою вогні Славська" loading="lazy" decoding="async"><figcaption><b>Чан</b>Під дахом, з підсвіткою</figcaption></figure></li>
@@ -1206,11 +1206,11 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
     </ol>
     <div class="perk__grid">
       <ul class="perks" data-rv>
-        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-tub"/></svg></span><div><h3>Чан просто на території</h3><p>У гарячу воду кладуть гілки ялиці й карпатські трави. Є ще чан з джакузі, а біля чану холодний басейн і за три кроки тепла кімната з душем, туалетом і роздягальнею. Рушники, халати й капці там дають, а ціну й вільний час краще уточнити заздалегідь.</p></div></li>
-        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-pool"/></svg></span><div><h3>Басейн з видом</h3><p>Великий басейн стоїть на дерев'яному помості, поруч лежаки й гамак, а за басейном гори. Працює в теплу пору року.</p></div></li>
-        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-swing"/></svg></span><div><h3>Для дітей</h3><p>Є батут, дитячий майданчик з гіркою, гойдалки і настільні ігри. Гості, які приїжджали з дітьми, пишуть, що малим тут є чим зайнятися.</p></div></li>
+        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-tub"/></svg></span><div><h3>Чан просто на території</h3><p>У гарячу воду кладуть гілки ялиці й карпатські трави. Є ще чан з джакузі. Біля чану холодний басейн, а за три кроки тепла кімната з душем, туалетом і роздягальнею, де дають рушники, халати й капці. Ціну й вільний час краще уточнити заздалегідь.</p></div></li>
+        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-pool"/></svg></span><div><h3>Басейн з видом</h3><p>Великий басейн стоїть на дерев'яному помості з лежаками й гамаком, і за ним видно гори. Працює в теплу пору року.</p></div></li>
+        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-swing"/></svg></span><div><h3>Для дітей</h3><p>Є батут, дитячий майданчик з гіркою, гойдалки й настільні ігри, тож малим тут є чим зайнятися.</p></div></li>
         <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-grill"/></svg></span><div><h3>Альтанки й мангал</h3><p>У дворі альтанки й мангальна зона. Готувати можна й на спільній кухні, де є плита, холодильник, мікрохвильовка і посуд.</p></div></li>
-        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-ski"/></svg></span><div><h3>Лижі взимку</h3><p>Лижне спорядження можна взяти напрокат прямо тут, є й окреме місце для лиж. До крісельного витягу на Тростян близько 1,5&nbsp;км пішки.</p></div></li>
+        <li><span class="ic"><svg class="i" aria-hidden="true"><use href="#i-ski"/></svg></span><div><h3>Лижі взимку</h3><p>Лижне спорядження дають напрокат на місці, а лижі можна лишити в окремому приміщенні.</p></div></li>
       </ul>
       <div>
         <blockquote class="pull" data-rv>
@@ -1237,13 +1237,13 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
     <div class="head head--c" data-rv>
       <p class="eyebrow">навколо</p>
       <h2 id="around-title">Тростян, Погар <em>і річка Опір</em></h2>
-      <p class="lead">Славсько лежить у долині Опору, а навколо стоять гори Тростян, Погар, Ільза й Писана. Селище давно знане як гірськолижний курорт, і чанів тут більше, ніж будь-де на Львівщині.</p>
+      <p class="lead">Славсько лежить у долині Опору між горами Тростян, Погар, Ільза й Писана. Селище давно знане як гірськолижний курорт, і чанів тут більше, ніж деінде на Львівщині.</p>
     </div>
     <div class="near-v" data-rv>
       <figure><img src="img/near-trostian.jpg" width="1200" height="800" alt="Гора Тростян з прорубаною в лісі лижною трасою, внизу будинки на зелених схилах" loading="lazy" decoding="async"><p class="near-v__km"><svg class="i" aria-hidden="true"><use href="#i-peak"/></svg>1235 м</p><figcaption>Гора Тростян. Фото: <a href="https://commons.wikimedia.org/wiki/File:Trostian_06.jpg" target="_blank" rel="noopener">Dmytro Petishkin</a>, CC BY 4.0</figcaption></figure>
       <div class="near-v__txt">
         <p class="near-v__t">Гора Тростян</p>
-        <p>Тут найвідоміші траси Славська. З нижньої станції на вершину веде крісельна дорога завдовжки 2,75&nbsp;км, а траси на схилах мають від півтора до двох кілометрів.</p>
+        <p>З нижньої станції на вершину веде крісельний витяг завдовжки 2,75&nbsp;км, а траси на схилах мають від півтора до двох кілометрів.</p>
         <ul class="near">
           <li><svg class="i" aria-hidden="true"><use href="#i-lift"/></svg><span>Крісельний витяг «Динамо-Тростян»<small>OpenStreetMap, пішки</small></span><b>1,5&nbsp;км</b></li>
           <li><svg class="i" aria-hidden="true"><use href="#i-lift"/></svg><span>Погар, крісельний витяг<small>OpenStreetMap, дорогою</small></span><b>2,8&nbsp;км</b></li>
@@ -1262,7 +1262,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
         <div class="season__body">
           <p class="season__lbl"><svg class="i" aria-hidden="true"><use href="#i-snow"/></svg>зима</p>
           <h3>Лижі на Тростяні й Погарі</h3>
-          <p>До крісельного витягу близько 1,5&nbsp;км пішки, а лижі дають напрокат прямо в котеджі. Після катання можна відігрітися в чані у дворі.</p>
+          <p>До крісельного витягу на Тростян близько 1,5&nbsp;км пішки, до Погару 2,8&nbsp;км дорогою. Після катання можна відігрітися в чані у дворі.</p>
         </div>
       </article>
       <article class="season" data-rv>
@@ -1274,7 +1274,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
         <div class="season__body">
           <p class="season__lbl"><svg class="i" aria-hidden="true"><use href="#i-sun"/></svg>літо</p>
           <h3>Полонини й басейн</h3>
-          <p>Улітку схили Тростяну зелені, а вершина пласка й поросла травою. Можна піти в гори, а можна провести день біля басейну у дворі.</p>
+          <p>Улітку схили Тростяну зелені, вершина пласка й поросла травою. Можна піти в гори, а можна провести день біля басейну.</p>
         </div>
       </article>
       <article class="season" data-rv>
@@ -1286,7 +1286,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
         <div class="season__body">
           <p class="season__lbl"><svg class="i" aria-hidden="true"><use href="#i-leaf"/></svg>весна й осінь</p>
           <h3>Опір і тиша</h3>
-          <p>До річки Опір близько 200&nbsp;м. Навесні, коли вода висока, по ній сплавляються від Славська.</p>
+          <p>До річки Опір близько 200&nbsp;м. Навесні, коли вода висока, Опором сплавляються від Славська.</p>
         </div>
       </article>
     </div>
@@ -1300,7 +1300,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
     <div class="head" data-rv>
       <p class="eyebrow">фото</p>
       <h2 id="gal-title">Котедж, двір і гори <em>на фото з Google-картки</em></h2>
-      <p class="lead">Будинок, номери, чан, басейн, гойдалка і Славсько взимку. Це знімки господарів і гостей з Google-картки.</p>
+      <p class="lead">Будинок, номери, чан, басейн, гойдалка і Славсько взимку. Знімали господарі й гості, фото взято з Google-картки.</p>
     </div>
     <div class="gal" id="gal">
       <button class="js-lb h2" type="button" data-cap="Будинок і басейн"><img src="img/g-house.jpg" width="750" height="1000" alt="Дерев'яний будинок на три поверхи з цегляним першим поверхом, перед ним басейн і білі лежаки" loading="lazy" decoding="async"></button>
@@ -1344,7 +1344,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
       <div data-rv>
         <p class="eyebrow">як доїхати</p>
         <h2 id="place-title">Вулиця Волошина, <em>кілометр від центру</em></h2>
-        <p class="lead">У центрі Славська поверніть у бік Тростяну, а далі їдьте вулицею Волошина. Від вокзалу сюди 1,1&nbsp;км, пішки це хвилин п'ятнадцять.</p>
+        <p class="lead">У центрі Славська поверніть у бік Тростяну і далі їдьте вулицею Волошина. Від вокзалу сюди 1,1&nbsp;км, пішки це хвилин п'ятнадцять.</p>
         <blockquote class="quote-s">
           <p>«Класне місцерозташування, неподалік від жд та гори Тростян (до підйомника йти 15 хв)»</p>
           <footer>Капітоліна Ш., відгук у Google, 3 місяці тому</footer>
@@ -1386,7 +1386,7 @@ textarea.inp{height:auto;min-height:92px;padding:13px 14px;line-height:1.45;resi
     <div class="head" data-rv>
       <p class="eyebrow">відгуки</p>
       <h2 id="rev-title">4,6 з 5 у Google <em>за 96 відгуками</em></h2>
-      <p class="lead">З 96 відгуків у Google 77 мають п'ять зірок. Найчастіше гості пишуть про чан, чистоту, привітних господарів і вид на гори.</p>
+      <p class="lead">З 96 відгуків у Google 77 мають п'ять зірок. Гості пишуть передусім про господарів і чан, далі про вид на гори й чистоту.</p>
     </div>
     <div class="rv" data-rv>
       <div class="score">
